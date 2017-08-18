@@ -1,0 +1,54 @@
+.normal {
+  font-family: inherit;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.header {
+  position: relative;
+  background-color: #eee;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+.button {
+  position: absolute;
+  bottom: 20px;
+  right: 80px;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  border-radius: 4px;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+.button:hover, .confirm:hover, .confirm:active {
+  background-color: #4cae4c;
+}
+.confirm, .cancel {
+  float: right;
+  margin: 0 5px 0 5px;
+}
+.confirm {
+  background-color: #5cb85c;
+}
+.mediaLeft {
+  width: 50px;  
+  text-align: center;
+  margin-right: 17px;
+}
+.item {
+  margin-bottom: 20px;
+  display: flex;
+}
+.voteCount {
+  display: block; 
+  text-align: center;
+}
+.description{
+  font-size: 14px;
+}
